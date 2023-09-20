@@ -1,0 +1,390 @@
+    :root {
+    --yellow:#FBB034;
+    --gray: #ABABAB;
+}
+
+.container {
+    width: 1400px;
+    padding-left: 114px;
+    padding-top: 73px;
+    
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    color: white;
+    background-color: transparent;
+   
+}
+.nav-items, li {
+margin-left: auto;
+color: aliceblue;
+
+}
+.header {
+    background-image: url(../images/section1-decore.jpg);
+    color: aliceblue;
+    /* background-size: contain; */
+}
+.nav-items:first-child {
+    color: var(--yellow);
+}
+
+body {
+   font-family: "Poppins";
+
+}
+.primary-button {
+    width: 182px;
+    height: 52px;
+    background-color: var(--yellow);
+    color: black;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+text-align:left;
+padding: 16px 45px;
+}
+.secondary-button {
+    width: 182px;
+    height: 53px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106.5%; /* 15.975px */
+    border: 1px solid #FFF;
+    padding: 18px 50px;
+  
+}
+
+.section1-text {
+color: var(--gray);
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+color: #9A9A9A;
+font-family: Poppins;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 106.5%; /* 22.365px */
+
+    }
+.section1-pre-title {
+    color: var(--yellow);
+    color: #FBB034;
+font-family: Jost;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 106.5%; /* 17.04px */
+}
+.section1, h1{
+    color: #FFF;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 94.5%; /* 45.36px */
+}
+
+/*------section2 boshlandi----------*/
+.section2 {
+    background-image: url(../images/section2-decore.png);
+  
+}
+.image1 {
+display: flex;
+align-items: start;
+gap: 26px;
+}
+.section2-left {
+    position: relative;
+    
+}
+.image3 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    border: 15px solid white;
+} 
+.section2-right {
+    margin-top: 5rem;
+    position: relative;
+}
+.about1 {
+    position: absolute;
+    top: 25%;
+    left: -40%;
+    width: 200px;
+    height: 50px;
+    z-index: -1;
+}
+
+/*------section2 end----------*/
+
+
+
+
+/*------section3 boshlandi----------*/
+.primary2-button {
+width: 251px;
+height: 52px;
+padding: 16px 50px;
+background: #FBB034;
+color:white;
+margin-bottom: 113px;
+}
+.circle1 {
+width: 50px;
+height: 50px;
+border-radius: 100%;
+background-color: var(--gray);
+position: absolute;
+top: 25%;
+left: 40%;
+display: flex;
+place-items: center;
+justify-content: center;
+}
+.section3 {
+  background-image: url(../images/section3-decore.jpg);  
+}
+.section3-call {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: relative;
+    place-content: center;
+   font-weight: 700;
+    text-align: center;
+}
+.icons-phone {
+    position: absolute;
+    
+}
+.section3-call-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: flex-end;
+   
+}
+.gray {
+    color: var(--gray);
+   margin-top: 50%;
+}
+.section3 h2 {
+    font-weight: 700;
+    color: #FFF;
+}
+
+
+/*------section3 end----------*/
+
+
+
+/*------section4 boshlandi----------*/
+
+.section4-right {
+    background-color: var(--yellow);
+    padding: 40px;
+    width: 575px;
+    height: 393px;
+
+}
+.section4 {
+ margin: 0 auto;
+}
+.section4-h6 {
+color: white;
+
+}
+.dash-dash {
+    border-bottom: 1px dashed black;
+}
+.secondary2-button {
+    width: 166px;
+    height: 39px;
+    color: #090909;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 106.5%; /* 15.975px */
+    border: 1px solid #090909;
+    padding: 10px 43px; 
+}
+/*------section4 end----------*/
+
+/*------section5 start----------*/
+.gray1 {
+    color: var(--gray);
+    margin-bottom: 35px;
+}
+.section5 {
+    width: 100%;
+    background-image: url(../icons/hair-cut-tool\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: 98% 98%;
+    background-size: 200px 200px;
+    padding-bottom: 6rem;
+    position: relative;
+}
+.section5-decore {
+    position: absolute;
+    z-index: -1;
+    left: 16%;
+}
+/*------section5 end----------*/
+
+
+
+
+
+
+/*------section6 start----------*/
+.section6 {
+    background-image: url(../images/section6-decore.jpg);
+    background-size: contain;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  
+   
+}
+.secondary3-button {
+    width: 208px;
+    height: 52px;
+    padding: 16px 30px;
+    color: #FBB034;
+    border: 1px solid #FBB034;
+    margin-bottom: 144px; 
+    text-align: center;
+    margin-left: 43%;
+    
+}
+/*------section6 end----------*/
+
+
+
+
+/*------section7 start----------*/
+
+.section7 {
+    background-color: black;
+    color: white;
+    padding-left: 9rem;
+
+}
+.container-fluid {
+    padding-inline: 3rem;
+}
+.section7-ul {
+    margin-left: 500px;
+}
+/*------section7 end----------*/
+line {
+    width: 100px;
+    height: 5px;
+    background-color: red;
+    margin-block: 55px;
+  
+}
+.white {
+    color: #FFF;
+    margin-top: 30px;
+}
+
+.section8 {
+    background-color: black;
+    color: white;
+    padding-top: 4rem;
+}
+.section9 {
+    background-color: black;
+    color: white; 
+}
+.section9-ul {
+    margin-left: 90px;
+}
+.email {
+    margin-top: 50px;
+    padding-block: 15px;
+    padding-right: 120px;
+    background-color: black;
+   
+}
+.submit-icon {
+    position: absolute;
+    right: 0;
+    top: 60%;
+    border-radius: 3px solid black;
+}
+.email-box {
+    position: relative;
+}
+.footer>li:first-child {
+    color: var(--yellow);
+}
+
+ 
+
+
+.loader-parent {
+   
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    background-color: white;
+    animation: dot-spin 3s linear forwards;
+}
+@keyframes loading {
+    from {
+        display: flex;
+    }
+    to {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .loader {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    min-height: 1000px;
+    overflow: hidden;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: dot-carousel 5s linear forwards;
+}
+@keyframes dot-carousel {
+from {
+    display: flex;
+}
+to {
+    display: none;
+}
+} */
